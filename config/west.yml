@@ -1,0 +1,15 @@
+# revision: the Ækeynox version to build
+#   - a tag for a stable (vX.Y.Z) or beta (vX.Y.Z-beta.N) release
+#   - main for the latest changes (edge)
+
+manifest:
+  remotes:
+    - name: OneDeadKey
+      url-base: https://github.com/severindupouy
+  projects:
+    - name: zmk-config-aekeynox
+      remote: OneDeadKey
+      revision: v1.1.0
+      import: config/west.yml
+  self:
+    path: config
