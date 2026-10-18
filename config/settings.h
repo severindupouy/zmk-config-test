@@ -14,7 +14,7 @@
 // #define KB_LAYOUT_BEPO              // France
 // #define KB_LAYOUT_BEPOLAR           // France
 // #define KB_LAYOUT_DVORAK            // US
-// #define KB_LAYOUT_ERGOL             // France
+#define KB_LAYOUT_ERGOL                // France
 // #define KB_LAYOUT_ERGLACE           // France
 // #define KB_LAYOUT_QWERTY_BR         // Brazil
 // #define KB_LAYOUT_QWERTY_DK         // Denmark
@@ -105,8 +105,8 @@
 // Uncomment one of the following lines to pick your preferred hold-tap config.
 
 // #define HT_NONE
-#define HT_THUMB_TAPS
-// #define HT_HOME_ROW_MODS  // (default behavior)
+// #define HT_THUMB_TAPS
+#define HT_HOME_ROW_MODS  // (default behavior)
 // #define HT_TWO_THUMB_KEYS
 
 // Timing is key! Keep the default value if unsure.
@@ -163,7 +163,7 @@
 // Note: you may have to release and rehold the layer to drop modifiers you
 // no longer need.
 
-// #define ENABLE_MOD_HOLDS
+#define ENABLE_MOD_HOLDS
 
 // Uncomment the following line to enable shift as a pinky HRM.
 // Useful for combined shortcuts, but NOT MEANT to type text!
